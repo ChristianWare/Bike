@@ -1,3 +1,14 @@
+@font-face {
+  font-family: 'ARISTOTLE';
+  src: url('../public/fonts/ARISTOTLE\ Regular.otf')
+}
+
+@font-face {
+  font-family: 'ARISTOTLE';
+  font-weight: bold;
+  src: url('../public/fonts/ARISTOTLE\ Bold.otf');
+}
+
 html,
 body {
   padding: 0;
@@ -13,4 +24,5 @@ a {
 
 * {
   box-sizing: border-box;
+  font-family: 'ARISTOTLE';
 }
